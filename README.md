@@ -86,9 +86,62 @@ tempat semula
 11. Berikan hasil percobaan pada asisten praktikum
 12. Buat laporan mengenai percobaan yang sudah di lakukan
  
+# Pembahasan
+&emsp;&emsp;Percobaan yang telah di lakukan di atas merupakan simulasi dari rangkaian sensor cahaya ( LDR ) dengan output relay. Dalam percobaan, terdapat ketentuan logika sebagai berikut: <br />
+1. Cahaya yang masuk pada LDR tergantung situasi ruang percobaan.
+2. Pada percobaan, lampu indikator berupa LED , merupakan simulasi input relay sehingga ketika lampu menyala, maka sama dengan relay bekerja.
+3. Penentuan resistansi di perlukan untuk mengatur pembagian tegangan yang masukke rangkaian op amp.
+4. Asumsi sensor LDR pada umumnya adalah ketika cahaya terang, resitansi menurun (kurang lebih 400 Ohm) dan ketika gelap, resistansi naik (kurang lebih 9K Ohm)
+5. Asumsi Op Amp pada umumnya adalah ketika input positif tinggi, dan input negatif rendah, maka output kuivalen dengan VCC, sedangkan ketika input positif rendah, dan input negatif, maka output ekuivalen dengan ground.
 
+&emsp;&emsp;Otomatis Arus AC dapat diketahui bahwa rangkaian ini menggunakan LDR sebagai pengatur nyala dan matinya lampu sesuai intensitas cahaya yang diberikan. Pada rangkaian lampu tidur otomatis lampu AC ini terdapat LDR dan resistor yang tersusun seri, kemudian diantara keduanya terdapat percabangan yang terhubung ke kaki basis dari transistor TIP41C. Prinsip kerja dari rangkaian ini yaitu dengan membandingkan nilai resistansi antara LDR dan resistor, ketika intensitas cahaya gelap maka resistansi LDR akan lebih besar dari resistansi resistor sehingga arus akan mengalir ke kaki basis dari transistor yang membuat kaki kolektor dan kaki emitor akan terbuka. Output dari transistor (emitor) ini mengalir ke coil 1 dari relay sehingga kaki com relay akan berpindah dari kaki normally close ke normally open. Kaki com relay terhubung dengan lampu dan kaki normally open terhubung dengan steker. Ketika kaki normally open dan kaki com terhubung maka arus AC yang bersumber dari PLN akan mengalir ke lampu, sehingga lampu akan menyala.<br />
 
+&emsp;&emsp;Pada rangkaian lampu tidur otomatis arus AC menggunakan relay yang berfungsi sebagai saklar. Ketika kaki coil dari relay dialiri arus dari kaki emitor transistor, maka akan terbentuk elektromagnetik yang membuat kaki com akan terhubung dengan kaki normally open sehingga saklar akan hidup dan lampu akan menyala. Sebaliknya, ketika coil tidak dialiri arus maka kaki com akan terhubung dengan kaki normally close sehingga saklar akan mati.<br />
 
+&emsp;&emsp;Rangkaian lampu tidur otomatis arus AC ini memiliki dua rangkaian dengan jenis arus yang berbeda yaitu arus DC dan AC. Arus DC ini diperlukan untuk mengatur arus yang masuk ke relay dengan menggunakan LDR. Relay ini berfungsi sebagai saklar dari arus AC, di mana relay ini menggunakan prinsip elektromagnetik untuk menggerakkan kontak saklar sehingga dengan arus listrik yang kecil (low power) dapat menghantarkan listrik yang bertegangan lebih tinggi.<br /><br />
+
+&emsp;&emsp;Penggunaan relay dalam kehidupan sehari-hari banyak digunakan pada alat- alat otomotif, seperti pada mobil dan motor. Relay memiliki fungsi sebagai pengontrol aliran listrik dalam jumlah besar dengan menggunakan sumber listrik kecil. Relay pada kendaraan motor memiliki fungsi sebagai saklar yaitu untuk on / off pada lampu motor dan juga dapat dimanfaatkan untuk menambah klakson untuk menghindari dari klakson yang memiliki arus berlebih. Relay pada kendaraan bermotor juga berfungsi untuk menghidupkan mesin dengan memutar kotak starter menggunakan kunci, hal ini membutuhkan aliran listrik yang besar. Selain digunakan pada mobil dan motor, relay juga digunakan pada panel listrik. Switchboard menggunakan relay sebagai komponen untuk mengontrol arus tinggi dari kontraktor. Biasanya relay digunakan untuk mencegah terjadinya interferensi agar setiap komponen bekerja secara berurutan.<br />
+
+&emsp;&emsp;Kesimpulan yang dapat diambil dari rangkaian ini, rangkaian lampu tidur otomatis arus AC menggunakan LDR sebagai sensor untuk menghidupkan lampu secara otomatis sesuai intensitas cahaya. Rangkaian ini juga menggunakan dua buah arus yang berbeda yaitu arus AC dan DC. Prinsip kerja dari rangkaian lampu tidur otomatis arus AC ini yaitu dengan membandingkan nilai resistansi antara LDR dan resistor. Output dari transistor akan mengalirkan arus ke kaki coil dari relay yang membuat kaki com akan terhubung ke kaki normally open, sehingga lampu dapat menyala. Relay sering digunakan pada kendaraan bermotor sebagai saklar lampu.<br />
+
+# Kelebihan 
+&emsp;&emsp;Pada umumnya kelebihan yang ada pada arus AC terdapat 3 kelebihan. Berikut dibawah ini yang menjadi 3 kelebihan dari arus AC:<r /> 
+1. Umur aki akan menjadi lebih panjang atau aki tidak mudah untuk soak, karena beban dari aki hanya bisa untuk starter.
+2. Tersedia saklar untuk mematikan atau menyalakan lampu. Jadi, lampu hanya bisa menyala apabila dibutuhkan.
+3. Bisa mengubah skala tegangannya, mulai dari dinaikkan atau diturunkan.
+
+# Kekurangan
+&emsp;&emsp;Selain Kelebihan yang bisa membuat Arus Ac banyak diminati,ternayataa rus Ac memiliki beberapa kekurangan yaitu sebagai berikut:<br />
+1. Nyala lampu yang kurang stabil, disebabkan asupan daya hanya bergantung pada mesin.
+2. Lampu akan menjadi lebih sering putus, karena adanya listrik yang kurang stabil.
+3. Arus AC tidak bisa untuk dibawah kemana-mana, dikarenakan arus AC tidak tersedia di sebuah wadah, misalnya baterai dan lain sebagainya.
+
+# Kesimpulan
+1. Prinsip kerja dari LDR sebagai sensor cahaya, nilai resistansi dari LDR dapat berubah-ubah sesuai intensitas cahaya yang diberikan. Pada keadaan terang nilai resistansi LDR akan kecil yang dapat mencapai 1 ohm, sedangkan pada keadaan gelap nilai resistansi LDR akan besar yang dapat mencapai 1M ohm.
+2. Untuk merancang lampu otomatis, input lampu / relay di kontrol oleh komparator ( Op Amp ) sehingga , ketika siang hari , lampu mati, dan ketika malam hari lampu menyala. 
+3. Relay berfungsi sebagai saklar dan memiliki 5 kaki yaitu coil 1, coil 2, com, normally open dan normally close. Prinsip kerjanya ketika kaki coil dialiri arus dari kaki emitor transistor, maka akan terbentuk elektromagnetik yang membuat kaki com akan terhubung dengan kaki normally open sehingga saklar akan hidup. Sebaliknya, ketika coil tidak dialiri arus maka kaki com akan terhubung dengan kaki normally close sehingga saklar akan mati.
+4. Prinsip kerja dari rangkaian lampu tidur otomatis arus AC ini yaitu dengan membandingkan nilai resistansi antara LDR dan resistor, ketika resistansi LDR lebih besar dari resistansi resistor maka transistor akan aktif, output dari transistor tersebut akan mempengaruhi keadaan relay, ketika transistor aktif maka relay akan aktif sehingga relay yang berfungsi sebagai saklar dapat mengalirkan arus AC(Alternating Current) yang bersumber dari PLN ke lampu, sehingga lampu akan menyala.
+5. Rangkaian lampu tidur otomatis arus AC dibuat pada papan PCB menggunakan komponen utama yaitu LDR, resistor, transistor, relay, dan lampu sebagai bebannya.
+6. Pada saat siag hari , resistansi pada LDR kecil sehingga, tegangan input pada Op Amp positif lebih rendah dari inpu negatif, sehingga output Op Amp ekuivalen dengan ground, sehingga lampu/relau OFF.
+7. Pada saat malam hari , resistansi pada LDR besar sehingga, tegangan input pada Op Amp positif lebih tinggi dari inpu negatif, sehingga output Op Amp ekuivalen.
+
+# Saran
+&emsp;&emsp;Jika hendak membuat program serupa untuk digunakan dalam kehidupan sehari hari, akan berjalan dengan jauh lebih optimal apabila sensor LDR diletakkan sangat dekat dengan sumber cahaya (lampu kamar) sehingga nyala lampu tidur akan benar benar mati karena sensor menangkap sangat banyak cahaya. Selain dari pada itu, penggunaan lampu yang berwarna juga dapat dijadikan bahan pertimbangan menyesuaikan dengan preferensi dan selera masing masing.
+
+# Daftar Pustaka
+[1] T. Oktavioni, M. Luqman, and S. Siswoko, “Rancang Bangun Driver Inverter Menggunakan Transistor BJT dengan Kontrol EGS002 | Oktavioni | Jurnal Elkolind : Jurnal Elektronika dan Otomasi Industri. http://elkolind.polinema.ac.id/index.php/elkolind/article/view/229 (accessed Nov. 30, 2022). <br />
+[2] Sutono, "KONSEP DASAR TRANSISTOR", Accessed: Nov. 30, 2022. [Online]. Available: https://repository.unikom.ac.id/52583/1/MODUL ELEKTRONIKA II.pdf <br />
+[3] “Pengertian Transistor dan Jenis Jenisnya” Accessed: Nov. 30, 2022. [Online]. Available : https://teknikelektronika.com/pengertian-transistor-jenis-jenis-transistor <br />
+[4] M. H. Widianto, “Pengaplikasian Sensor Hujan dan LDR untuk Lampu Mobil Otomatis Berbasis Arduino Uno,” Resist. (Elektronika Kendali Telekomun. Tenaga List. Komputer), vol. 1, no. 2, pp. 79–84, Nov. 2018, doi: 10.24853/RESISTOR.1.2.79-84. <br />
+[5] “Pengertian Resistor dan Jenis-jenisnya | All Of Life.” https://blog.unnes.ac.id/antosupri/pengertian-resistor-dan-jenis-jenisnya/ (accessed Nov. 30, 2022).<br /> 
+[6] S. Suzuki, S. Aji, R. Roland, and F. Fathan, “Deteksi dan Monitoring Gas Beracun Carbon Monoksida (CO) Pada Kabin Kendaraan Tua (Odometer > 300k km) dan Hubungannya Terhadap Kepadatan Kendaraan Dengan Metode Fuzzy,” 2021, Accessed: Dec. 02, 2022. [Online]. Available: http://repository.unsada.ac.id/cgi/oai2 <br />
+[7] A. M. H. Pardede, N. Novriyenni, and S. Efendi, “IMPLEMENTASI PENGENDALIAN LAMPU OTOMATIS BERBASIS ARDUINO MENGGUNAKAN METODE FUZZY LOGIC,” TECHSI - J. Tek. Inform., vol. 9, no. 2, pp. 164–177, 2017, doi: 10.29103/TECHSI.V9I2.221.<br />
+
+# Lampiran
+![Alt text](https://github.com/zuhadha/laporan-uas-oak/blob/main/prosedur%20pelaksanaan.png "Prosedur Percobaan")
+![Alt text](https://github.com/zuhadha/laporan-uas-oak/blob/main/prosedur%20pelaksanaan.png "Prosedur Percobaan")
+![Alt text](https://github.com/zuhadha/laporan-uas-oak/blob/main/prosedur%20pelaksanaan.png "Prosedur Percobaan")
+![Alt text](https://github.com/zuhadha/laporan-uas-oak/blob/main/prosedur%20pelaksanaan.png "Prosedur Percobaan")
 
 
 
