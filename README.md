@@ -138,10 +138,10 @@ tempat semula
 [7] A. M. H. Pardede, N. Novriyenni, and S. Efendi, “IMPLEMENTASI PENGENDALIAN LAMPU OTOMATIS BERBASIS ARDUINO MENGGUNAKAN METODE FUZZY LOGIC,” TECHSI - J. Tek. Inform., vol. 9, no. 2, pp. 164–177, 2017, doi: 10.29103/TECHSI.V9I2.221.<br />
 
 # Lampiran
-![Alt text](https://github.com/zuhadha/laporan-uas-oak/blob/main/prosedur%20pelaksanaan.png "Prosedur Percobaan")
-![Alt text](https://github.com/zuhadha/laporan-uas-oak/blob/main/prosedur%20pelaksanaan.png "Prosedur Percobaan")
-![Alt text](https://github.com/zuhadha/laporan-uas-oak/blob/main/prosedur%20pelaksanaan.png "Prosedur Percobaan")
-![Alt text](https://github.com/zuhadha/laporan-uas-oak/blob/main/prosedur%20pelaksanaan.png "Prosedur Percobaan")
+![Alt text](https://github.com/zuhadha/laporan-uas-oak/blob/main/produk%20akhir.png "produk akhir")
+![Alt text](https://github.com/zuhadha/laporan-uas-oak/blob/main/rangkaian%201.png "rangkaian 1")
+![Alt text](https://github.com/zuhadha/laporan-uas-oak/blob/main/rangkaian%202.png "rangkaian 2")
+![Alt text](https://github.com/zuhadha/laporan-uas-oak/blob/main/rangkaian%20baterai.png "rangkaian baterai")
 
 
 
