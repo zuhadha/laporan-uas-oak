@@ -63,13 +63,13 @@ Prinsip kerja sebuah operasional Amplifier (Op-Amp) adalah membandingkan nilai k
 14. Terminal Blok (1 buah)<br />
 
 # Tempat dan Waktu Praktikum
-1. Tempat
+1. Tempat<br />
 Praktikum perancangan dilakukan di salah satu kediaman anggota kelompok di Cipadung. Praktikum dilakukan selama 2 hari belum termasuk proses pengumpulan alat dan bahan.<br />
-3. Waktu
+3. Waktu<br />
 Pelaksanaan praktikum dilakukan pada tanggal 10 - 14 Desember 2022 di jam yang relatif fleksibel pagi hingga sore hari.<br />
 
 # Prosedur Percobaan
-
+![Alt text](relative/path/to/img.jpg?raw=true "Title")
 # Langkah Kerja
 Berikut beberapa langkah kerja dari prose pembuatan program lampu tidur otomatis:
 1. Persipakan Alat dan Bahan
