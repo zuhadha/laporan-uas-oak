@@ -69,7 +69,7 @@ Praktikum perancangan dilakukan di salah satu kediaman anggota kelompok di Cipad
 Pelaksanaan praktikum dilakukan pada tanggal 10 - 14 Desember 2022 di jam yang relatif fleksibel pagi hingga sore hari.<br />
 
 # Prosedur Percobaan
-![Alt text](https://github.com/zuhadha/laporan-uas-oak/prosedur pelaksanaan.png"Title")
+![Alt text](https://github.com/zuhadha/laporan-uas-oak/blob/main/prosedur%20pelaksanaan.png "Prosedur Percobaan")
 # Langkah Kerja
 Berikut beberapa langkah kerja dari prose pembuatan program lampu tidur otomatis:
 1. Persipakan Alat dan Bahan
