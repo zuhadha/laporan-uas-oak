@@ -37,9 +37,55 @@ Symbol Operasional Amplifier (Op-Amp)<br />
 Prinsip kerja sebuah operasional Amplifier (Op-Amp) adalah membandingkan nilai kedua input (input inverting dan input non- inverting), apabila kedua input bernilai sama maka output Op-amp tidak ada (nol) dan apabila terdapat perbedaan nilai input keduanya maka output Op-amp akan memberikan tegangan output. Operasional amplifier (Op-Amp) dibuat dari penguat diferensial dengan 2 input. Sebagai penguat operasional ideal, opeasional amplifier (Op-Amp) memiliki karaterisktik sebagai berikut : Impedansi Input (Zi) besar = ∞ V0 = 0 apabila V1 = V2 dan tidak tergantung pada besarnya V1. Karaerisktik operasional amplifier (OP-Amp) tidak tergantung temperature / suhu.<br />
 
 # Resistor
-Resistor merupakan komponen elektronika yang memiliki nilai resistansi. Resistor berfungsi untuk membatasi dan mengatur arus listrik dalam suatu rangkaian. Resistansi resistor memiliki satuan Ohm yang diambil dari nama penemunya yaitu Georg Simon Ohm.<br />
-Warna gelang pada resistor menunjukan nilai resistansi yang dimiliki resistor. Resistor memiliki karakteristik resistansi dan toleransi, serta resistor tidak memiliki kutub. Nilai resistansi resistor dapat diubah dengan merangkainya secara seri atau paralel.<br />
+&emsp;&emsp;Resistor merupakan komponen elektronika yang memiliki nilai resistansi. Resistor berfungsi untuk membatasi dan mengatur arus listrik dalam suatu rangkaian. Resistansi resistor memiliki satuan Ohm yang diambil dari nama penemunya yaitu Georg Simon Ohm.<br />
+&emsp;&emsp;Warna gelang pada resistor menunjukan nilai resistansi yang dimiliki resistor. Resistor memiliki karakteristik resistansi dan toleransi, serta resistor tidak memiliki kutub. Nilai resistansi resistor dapat diubah dengan merangkainya secara seri atau paralel.<br />
 
+# Relay
+&emsp;&emsp;Relay adalah Saklar (Switch) yang dioperasikan secara listrik dan merupakan komponen Electromechanical (Elektromekanikal) yang terdiri dari 2 bagian utama yakni Elektromagnet (Coil) dan Mekanikal (seperangkat Kontak Saklar/Switch). Relay menggunakan Prinsip Elektromagnetik untuk menggerakkan Kontak Saklar sehingga dengan arus listrik yang kecil (low power) dapat menghantarkan listrik yang bertegangan lebih tinggi. Sebagai contoh, dengan Relay yang menggunakan Elektromagnet 5V dan 50 mA mampu menggerakan Armature Relay (yang berfungsi sebagai saklarnya) untuk menghantarkan listrik 220V 2A.
+
+# Lampu
+&emsp;&emsp;Lampu adalah sebuah peranti yang memproduksi cahaya. Kata "lampu" dapat juga berarti bola lampu. Lampu pertama yang di produksi adalah lampu pijar. Lampu pijar adalah sumber cahay buatan yang dihasilkan melalui penyaluran arus listik melalui filamen kemudian memanas dan menghasilkan cahaya. Kaca yang menyelubungi filamen panas tersebut menghalangi udara untuk berhubungan dengannya sehingga filamen tidak akan langsung rusak akibat teroksidasi. Komponen utama dari lampu pijar adalah bola lampu yang terbuat dari kaca. Filamen yang terbuat dari wolfram, dasar kampu yang terdiri dari filamen, bola lampu, gas pengisi, dam kaki lampu.
+
+# Alat dan Bahan Praktikum
+1. Transistor TIP41C (1 buah)<br />
+2. Papan PCB (2 buah)<br />
+3. Relay 5V (1 buah)<br />
+4. Baterai 9V (1 buah)<br />
+5. Dudukan Baterai (1 buah)<br />
+6. Resistor 10.000 Ohm (1 buah)<br />
+7. Lampu AC (1 buah)<br />
+8. Kabel Jumper (4 buah)<br />
+9. Kabel (1 meter)<br />
+10. Header (+- 10 buah)<br />
+11. Solder (1 buah)<br />
+12. Timah (30 cm)<br />
+13. Steker Lampu (1 buah)<br />
+14. Terminal Blok (1 buah)<br />
+
+# Tempat dan Waktu Praktikum
+1. Tempat
+Praktikum perancangan dilakukan di salah satu kediaman anggota kelompok di Cipadung. Praktikum dilakukan selama 2 hari belum termasuk proses pengumpulan alat dan bahan.<br />
+3. Waktu
+Pelaksanaan praktikum dilakukan pada tanggal 10 - 14 Desember 2022 di jam yang relatif fleksibel pagi hingga sore hari.<br />
+
+# Prosedur Percobaan
+
+# Langkah Kerja
+Berikut beberapa langkah kerja dari prose pembuatan program lampu tidur otomatis:
+1. Persipakan Alat dan Bahan
+2. Cek keadaan alat dan bahan dan pastikan dalam kondiis baik
+3. Perhatikan keselatan dan Kesehatan kerja
+4. Rangkailah percobaan sesuai dengan gambar berikut
+5. Masukkan sumber tegangan DC
+6. Atur nilai hambatan pada LDR
+7. Amati perubahan pada output rangkaian
+8. Tulis hasil percobaan
+9. Konsultasikan pada asisten praktikum jika ada kesulitan
+10. Jika percobaaan di rasa cukup , rapikan alat dan bahan, kemudian kembalikan ke
+tempat semula
+11. Berikan hasil percobaan pada asisten praktikum
+12. Buat laporan mengenai percobaan yang sudah di lakukan
+ 
 
 
 
